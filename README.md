@@ -55,7 +55,13 @@ Response:
 
 - 200 OK (아이템 존재)
 
+<img width="3186" height="1311" alt="image" src="https://github.com/user-attachments/assets/3be66f5b-a7d0-4d76-a171-41ed9d858bf2" />
+
+
 - 404 Not Found (존재하지 않는 경우)
+
+<img width="3201" height="1284" alt="image" src="https://github.com/user-attachments/assets/c586bda9-f60a-4b41-ad31-b653329ef31e" />
+
 
 
 4) 전체 아이템 조회
