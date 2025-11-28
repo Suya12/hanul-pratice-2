@@ -2,51 +2,18 @@ FastAPI CRUD Assignment
 
 본 프로젝트는 FastAPI를 이용하여 과제 요구사항(POST/GET/PUT/DELETE 각 2개씩 총 8개 API, 미들웨어, 다양한 응답 코드 사용, 공통 응답 포맷 적용)을 충족하는 예제 백엔드 서버입니다.
 
-📌 1. 과제 주제 (Topic)
-
-FastAPI를 활용해 기본적인 CRUD API를 구현하고, 미들웨어 적용, 다양한 HTTP Status Code 반환, 표준화된 응답 포맷을 구성하는 실습입니다.
-
-📌 2. 구현 기능 (Requirements)
-✔ A. HTTP 메소드별 API 구현
-
-POST / GET / PUT / DELETE 각각 2개씩 → 총 8개 API 구현
-
-✔ B. 미들웨어(Middleware) 구현
-
-모든 요청(Request) 로깅 middleware 적용
-
-✔ C. 다양한 HTTP Response Codes 사용
-
-2xx: 200, 201, 204
-
-4xx: 400, 404
-
-5xx: 500
-
-✔ D. 응답 포맷 통일
-
-강의 PPT의 표준 포맷에 맞춰 다음 구조 유지:
-
-```json
-{
-  "status": "success",
-  "data": { ... },
-  "message": "optional"
-}
-```
-
-📌 3. 프로젝트 구조
+📌 1. 프로젝트 구조
 
 ```bash
 📁 project-root
  └── main.py    # FastAPI 서버 코드
 ```
 
-📌 6. API 상세 설명 (8개)
+📌 2. API 설명 (8개)
 ✅ POST (2개)
 1) 아이템 생성
 
-POST /items
+```POST /items```
 
 201 Created
 
@@ -65,11 +32,12 @@ Response:
 
 2) 의도된 400 에러
 
-POST /items/error
+```POST /items/error```
 
 - 400 Bad Request
 
 ✅ GET (2개)
+
 3) 특정 아이템 조회
 
 GET /items/{item_id}
