@@ -2,6 +2,9 @@ FastAPI CRUD Assignment
 
 본 프로젝트는 FastAPI를 이용하여 과제 요구사항(POST/GET/PUT/DELETE 각 2개씩 총 8개 API, 미들웨어, 다양한 응답 코드 사용, 공통 응답 포맷 적용)을 충족하는 예제 백엔드 서버입니다.
 
+<img width="3296" height="1788" alt="13" src="https://github.com/user-attachments/assets/3a39eb02-1112-4c1b-99d3-4836aeb052ce" />
+
+
 📌 1. 프로젝트 구조
 
 ```bash
