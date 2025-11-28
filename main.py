@@ -92,7 +92,12 @@ async def get_all_items():
 #                  PUT (2개)
 # =======================================================
 
-# 5. 아이템 수정
+# 5. 일부러 500 내부 에러 반환
+@app.put("/items/error", status_code=500)
+async def update_error():
+    raise HTTPException(status_code=500, detail="서버 오류 발생 테스트")
+
+# 6. 아이템 수정
 @app.put("/items/{item_id}")
 async def update_item(item_id: int, item: Item):
     if item_id not in fake_db:
@@ -102,10 +107,7 @@ async def update_item(item_id: int, item: Item):
     return response("success", {"id": item_id, **item.dict()})
 
 
-# 6. 일부러 500 내부 에러 반환
-@app.put("/items/error")
-async def update_error():
-    raise HTTPException(status_code=500, detail="서버 오류 발생 테스트")
+
 
 
 # =======================================================
