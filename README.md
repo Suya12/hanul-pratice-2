@@ -34,6 +34,7 @@ Response:
 
 - 201 Created
 
+<img width="3195" height="1478" alt="image" src="https://github.com/user-attachments/assets/190cc0e7-535a-4b56-bc0c-5d59c756c2dc" />
 
 
 2) 의도된 400 에러 
@@ -41,6 +42,9 @@ Response:
 `POST /items/error`
 
 - 400 Bad Request
+
+<img width="3217" height="1359" alt="image" src="https://github.com/user-attachments/assets/cefa2dad-05b2-48c5-a4be-98ce25bff6d3" />
+
 
 ✅ GET (2개)
 
