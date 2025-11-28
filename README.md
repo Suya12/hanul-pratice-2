@@ -10,12 +10,11 @@ FastAPI CRUD Assignment
 ```
 
 📌 2. API 설명 (8개)
+
 ✅ POST (2개)
-1) 아이템 생성
+1) 아이템 생성 - 201 Created
 
-```POST /items```
-
-201 Created
+`POST /items`
 
 Request Body:
 ```json
@@ -30,9 +29,9 @@ Response:
 }
 ```
 
-2) 의도된 400 에러
+2) 의도된 400 에러 
 
-```POST /items/error```
+`POST /items/error`
 
 - 400 Bad Request
 
@@ -40,49 +39,49 @@ Response:
 
 3) 특정 아이템 조회
 
-GET /items/{item_id}
+`GET /items/{item_id}`
 
-200 OK
+- 200 OK (아이템 존재)
 
-404 Not Found (존재하지 않는 경우)
+- 404 Not Found (존재하지 않는 경우)
 
 4) 전체 아이템 조회
 
-GET /items
+`GET /items`
 
-200 OK
+- 200 OK
 
 현재 저장된 모든 데이터 반환
 
 ✅ PUT (2개)
 5) 아이템 수정
 
-PUT /items/{item_id}
+`PUT /items/{item_id}`
 
-200 OK
+- 200 OK
 
-404 Not Found
+- 404 Not Found
 
 6) 의도된 서버 에러
 
-PUT /items/error
+`PUT /items/error`
 
-500 Internal Server Error
+- 500 Internal Server Error
 
 ✅ DELETE (2개)
 7) 아이템 삭제
 
-DELETE /items/{item_id}
+`DELETE /items/{item_id}`
 
-200 OK
+- 200 OK (삭제 성공)
 
-404 Not Found
+- 404 Not Found (존재하지 않은 아이템)
 
 8) 전체 삭제
 
-DELETE /items
+`DELETE /items`
 
-204 No Content
+- 204 No Content
 
 내용 없음 반환
 
@@ -99,7 +98,7 @@ DELETE /items
 
 📌 9. 테스트 화면 (Screenshots)
 
-해당 섹션은 과제 제출 시 직접 실행한 Swagger / Postman / Terminal 등 캡처 이미지 넣으면 됨.
+Swagger 화면
 
 예:
 
