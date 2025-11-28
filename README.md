@@ -72,6 +72,8 @@ Response:
 
 현재 저장된 모든 데이터 반환
 
+<img width="3201" height="1579" alt="image" src="https://github.com/user-attachments/assets/35cbbbe6-3b64-4f34-8fa9-004b7801c861" />
+
 
 ✅ PUT (2개)
 5) 아이템 수정
@@ -80,7 +82,13 @@ Response:
 
 - 200 OK
 
+<img width="3181" height="1498" alt="image" src="https://github.com/user-attachments/assets/e15b4f59-d529-4185-a2e1-c4e37064e84e" />
+
+
 - 404 Not Found
+
+<img width="3168" height="1257" alt="image" src="https://github.com/user-attachments/assets/eb58a9a3-120b-4e7a-b284-981277b8e0a2" />
+
 
 
 6) 의도된 서버 에러
