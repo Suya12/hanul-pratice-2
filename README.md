@@ -97,6 +97,9 @@ Response:
 
 - 500 Internal Server Error
 
+<img width="2569" height="1455" alt="image" src="https://github.com/user-attachments/assets/55cddfbb-88c5-4aa0-849b-b8bef61a88dd" />
+
+
 
 ✅ DELETE (2개)
 7) 아이템 삭제
@@ -105,7 +108,12 @@ Response:
 
 - 200 OK (삭제 성공)
 
+ <img width="2547" height="1660" alt="image" src="https://github.com/user-attachments/assets/c446d8f3-48cf-4ec4-8bd6-0f6c8ecc35bd" />
+
 - 404 Not Found (존재하지 않은 아이템)
+
+<img width="2558" height="1656" alt="image" src="https://github.com/user-attachments/assets/0ae24b38-34f2-4434-af45-5db608c41491" />
+
 
 
 8) 전체 삭제
@@ -116,27 +124,14 @@ Response:
 
 내용 없음 반환
 
+<img width="2574" height="1449" alt="image" src="https://github.com/user-attachments/assets/f4596677-f78d-4bae-a774-52cfc5fe65d1" />
+
 
 📌 3. 미들웨어 기능
 
-서버의 모든 요청을 출력하는 로깅 미들웨어 포함:
+서버의 모든 요청을 출력하는 로깅:
 
-예시 출력:
-
-```csharp
-[Request] GET http://127.0.0.1:8000/items
-[Response] status=200
-```
+<img width="1651" height="492" alt="image" src="https://github.com/user-attachments/assets/fd9a603a-ffe5-4e05-98d5-ba6768540733" />
 
 
-📌 4. 테스트 화면 (Screenshots)
 
-Swagger 화면
-
-예:
-
-서버 실행 화면
-
-Swagger로 POST/GET/PUT/DELETE 테스트한 스크린샷
-
-로그 미들웨어 출력 화면
